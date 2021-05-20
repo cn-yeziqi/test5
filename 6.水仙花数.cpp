@@ -1,15 +1,15 @@
-//#define _CRT_SECURE_NO_WARNINGS 1
-//#include <stdio.h>
-//#include <math.h>
-//int main()
-//{
-//	int x;
-//	for (x = 100; x < 1000; x++)
-//	{
-//		if (pow(x / 100 % 10, 3) + pow(x / 10 % 10, 3) + pow(x % 10, 3) == x)//xµÄ°ÙÎ»µÄÈý´Î·½+xµÄÊ®Î»µÄÈý´Î·½+xµÄ¸öÎ»µÄÈý´Î·½µÈÓÚx
-//			printf("Ë®ÏÉ»¨Êý= %d\n", x);
-//		else
-//			;
-//	}
-//	return 0;
-//}
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+	int x;
+	for (x = 100; x < 1000; x++)
+	{
+		if (pow(x / 100 % 10, 3) + pow(x / 10 % 10, 3) + pow(x % 10, 3) == x)//xçš„ç™¾ä½çš„ä¸‰æ¬¡æ–¹+xçš„åä½çš„ä¸‰æ¬¡æ–¹+xçš„ä¸ªä½çš„ä¸‰æ¬¡æ–¹ç­‰äºŽx
+			printf("æ°´ä»™èŠ±æ•°= %d\n", x);
+		else
+			;
+	}
+	return 0;
+}
