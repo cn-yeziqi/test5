@@ -1,44 +1,44 @@
-//#define _CRT_SECURE_NO_WARNINGS 1
-//#include <stdio.h>
-//int main()
-//{
-//
-//	int year=100;
-//	int month;
-//	while(1)
-//	{
-//		printf("ÇëÊäÈëÄê·İ");
-//		scanf("%d", &year);
-//		if (0 == year)
-//		{
-//			break;
-//		}
-//		printf("ÇëÊäÈëÔÂ·İ");
-//		scanf("%d", &month);
-//		switch (month)
-//		{
-//		case 1:
-//		case 3:
-//		case 5:
-//		case 7:
-//		case 8:
-//		case 10:
-//		case 12:
-//			printf("¸ÃÔÂÎª31Ìì\n");
-//			break;
-//		case 4:
-//		case 6:
-//		case 9:
-//		case 11:
-//			printf("¸ÃÔÂÎª30Ìì\n");
-//			break;
-//		case 2:
-//			if (0 == (year % 4) && (year % 100) != 0 || 0 == (year % 400))
-//				printf("¸ÃÔÂÎª29Ìì\n");
-//			else
-//				printf("¸ÃÔÂÎª28Ìì\n");
-//			break;
-//		}
-//	} 
-//		return 0;
-//	}
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+int main()
+{
+
+	int year=100;
+	int month;
+	while(1)
+	{
+		printf("è¯·è¾“å…¥å¹´ä»½");
+		scanf("%d", &year);
+		if (0 == year)
+		{
+			break;
+		}
+		printf("è¯·è¾“å…¥æœˆä»½");
+		scanf("%d", &month);
+		switch (month)
+		{
+		case 1:
+		case 3:
+		case 5:
+		case 7:
+		case 8:
+		case 10:
+		case 12:
+			printf("è¯¥æœˆä¸º31å¤©\n");
+			break;
+		case 4:		
+        case 6:
+		case 9:
+		case 11:
+			printf("è¯¥æœˆä¸º30å¤©\n");
+			break;
+		case 2:
+			if (0 == (year % 4) && (year % 100) != 0 || 0 == (year % 400))
+				printf("è¯¥æœˆä¸º29å¤©\n");
+			else
+				printf("è¯¥æœˆä¸º28å¤©\n");
+			break;
+		}
+	} 
+		return 0;
+	}
