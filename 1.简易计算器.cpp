@@ -1,51 +1,51 @@
-//#define _CRT_SECURE_NO_WARNINGS 1
-//#include <stdio.h>
-//int main()
-//{
-//	int a=0;
-//	int b = 0;
-//	int n;
-//	do
-//	{
-//		printf("*********************************************************\n");
-//		printf("                »¶Ó­Ê¹ÓÃĞ¡ĞÍ¼ÆËã»ú                                 \n");
-//		printf("                 Éè¼ÆÕß: Ò¶å«Ææ                                    \n");
-//		printf("*********************************************************\n");
-//		printf("                       1.¼Ó·¨¼ÆËã                                  \n");
-//		printf("                       2.¼õ·¨¼ÆËã                                  \n");
-//		printf("                       3.³Ë·¨¼ÆËã                                  \n");
-//		printf("                       4.³ı·¨¼ÆËã                                  \n");
-//		printf("                       0.ÍË³ö                                      \n");
-//		printf("*********************************************************\n");
-//		printf("\n");
-//		printf("ÇëÑ¡Ôñ:");
-//		scanf("%d", &n);
-//		switch (n)
-//		{
-//			
-//		case 1:
-//			printf("ÇëÊäÈëÁ½¸öÊı×Ö");
-//			scanf("%d%d", &a, &b);
-//			printf("Á½ÊıÏà¼ÓÊÇ: %d", a + b);
-//			break;
-//		case 2:
-//			printf("ÇëÊäÈëÁ½¸öÊı×Ö");
-//			scanf("%d%d", &a, &b);
-//			printf("Á½ÊıÏà¼õÊÇ: %d", a - b);
-//			break;
-//		case 3:
-//			printf("ÇëÊäÈëÁ½¸öÊı×Ö");
-//			scanf("%d%d", &a, &b);
-//			printf("Á½ÊıÏà³ËÊÇ: %d", a * b);
-//			break;
-//		case 4:
-//			printf("ÇëÊäÈëÁ½¸öÊı×Ö");
-//			scanf("%d%d", &a, &b);
-//			printf("Á½ÊıÏà³ıÊÇ: %6.2f", (float)a / b);
-//			break;
-//		case 0:
-//			break;
-//		}
-//	} while (n);
-//	return 0;
-//}
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+int main()
+{
+	int a=0;
+	int b = 0;
+	int n;
+	do
+	{
+		printf("*********************************************************\n");
+		printf("                æ¬¢è¿ä½¿ç”¨å°å‹è®¡ç®—æœº                                 \n");
+		printf("                 è®¾è®¡è€…: å¶ç€šå¥‡                                    \n");
+		printf("*********************************************************\n");
+		printf("                       1.åŠ æ³•è®¡ç®—                                  \n");
+		printf("                       2.å‡æ³•è®¡ç®—                                  \n");
+		printf("                       3.ä¹˜æ³•è®¡ç®—                                  \n");
+		printf("                       4.é™¤æ³•è®¡ç®—                                  \n");
+		printf("                       0.é€€å‡º                                      \n");
+		printf("*********************************************************\n");
+		printf("\n");
+		printf("è¯·é€‰æ‹©:");
+		scanf("%d", &n);
+		switch (n)
+		{
+			
+		case 1:
+        	printf("è¯·è¾“å…¥ä¸¤ä¸ªæ•°å­—");
+			scanf("%d%d", &a, &b);
+			printf("ä¸¤æ•°ç›¸åŠ æ˜¯: %d", a + b);
+			break;
+		case 2:
+			printf("è¯·è¾“å…¥ä¸¤ä¸ªæ•°å­—");
+			scanf("%d%d", &a, &b);
+			printf("ä¸¤æ•°ç›¸å‡æ˜¯: %d", a - b);
+			break;
+		case 3:
+			printf("è¯·è¾“å…¥ä¸¤ä¸ªæ•°å­—");
+			scanf("%d%d", &a, &b);
+			printf("ä¸¤æ•°ç›¸ä¹˜æ˜¯: %d", a * b);
+			break;
+		case 4:
+        	printf("è¯·è¾“å…¥ä¸¤ä¸ªæ•°å­—");
+            scanf("%d%d", &a, &b);
+			printf("ä¸¤æ•°ç›¸é™¤æ˜¯: %6.2f", (float)a / b);
+			break;
+		case 0:
+			break;
+		}
+	} while (n);
+	return 0;
+}
