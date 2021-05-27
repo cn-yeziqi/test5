@@ -2,7 +2,8 @@
 #include <stdio.h>
 int main()
 {
-	for (char ch=0; ch != '#';)
+    char ch;
+	for ( ch=0; ch != '#';)
 	{
 		printf("请输入");
 		ch = getchar();
